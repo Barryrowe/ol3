@@ -99,6 +99,7 @@ ol.featureloader.loadFeaturesXhr = function(url, format, success) {
                 }
               } else {
                 // FIXME
+                console.log("Failed Request", xhrIo);
               }
               goog.dispose(xhrIo);
             }, false, this);
